@@ -442,6 +442,7 @@ span {
     color: var(--second-bg-color);
 }
 
+
 select {
     display: flex;
     justify-content: space-between;
@@ -601,7 +602,7 @@ select {
      }
 
      .about-img {
-         width: 85vw;
+         width: 100vw;
          margin-top: 4rem;
      }
 
@@ -610,7 +611,7 @@ select {
      }
 
      .portfolio h2 {
-         margin-bottom: 3rem;
+         margin-bottom: 2rem;
      }
     
 
@@ -637,7 +638,11 @@ select {
     }
 @media (max-width: 365px){
     .header {
-        width: 350px;
+        width: 365px;
+    }
+    .logo{
+        width: 30px;
+        font-size: 1rem;
     }
     .home-content p{
         font-size: 9px;
@@ -650,15 +655,11 @@ select {
         width: 90vw;
     }
 
-    .footer{
-        
-    }
-
     .footer p {
         text-align: left;
         margin-top: 2rem;
     }
     iframe{
-        width:350px
+        width:350px;
     }
 }
